@@ -224,7 +224,7 @@ header .navbar {
    Home page style
    ================= */
 #banner {
-  background: url('../img/banner.jpg');
+  background: url('../img/banner_2.png');
   background-size: cover;
   padding: 250px 0;
   position: relative;
@@ -232,7 +232,7 @@ header .navbar {
 #banner:before {
   position: absolute;
   z-index: 99;
-  background: rgba(0, 0, 0, 0.73);
+  /*background: rgba(0, 0, 0, 0.73);*/
   top: 0;
   left: 0;
   right: 0;
@@ -1117,8 +1117,6 @@ footer p {
   display: inline-block;
   background-color: #15546f;
   width: auto;
-  -webkit-transition-duration: .2s;
-  -webkit-transition-timing-function: ease-in-out;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 600;
@@ -1185,8 +1183,7 @@ footer p {
   border: 2px solid #15546f;
   color: #fff;
   background-color: #15546f;
-  -webkit-transition-duration: .2s;
-  -webkit-transition-timing-function: ease-in-out;
+
 }
 
 #blog-left .addcomment .blog-comment-form form button:hover{
@@ -1316,8 +1313,6 @@ footer p {
 #blog-left .sidebar-tags a:hover{
   background-color: #000;
   color: #fff;
-  -webkit-transition-duration: .2s;
-  -webkit-transition-timing-function: ease-in-out;
 }
 
 
